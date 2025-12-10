@@ -1,0 +1,51 @@
+{
+  "data_files": {
+    "od_matrix": "data/raw/od_matrix.csv",
+    "main_data": "data/raw/main_data_advanced.csv",
+    "od_2019": "data/raw/od_matrix_2019.csv",
+    "od_2020": "data/raw/od_matrix_2020.csv",
+    "od_2021": "data/raw/od_matrix_2021.csv",
+    "od_2022": "data/raw/od_matrix_2022.csv",
+    "od_2023": "data/raw/od_matrix_2023.csv"
+  },
+  "city_mapping": {
+    "香港": 1,
+    "澳门": 2,
+    "广州": 3,
+    "深圳": 4,
+    "珠海": 5,
+    "佛山": 6,
+    "惠州": 7,
+    "东莞": 8,
+    "中山": 9,
+    "江门": 10,
+    "肇庆": 11
+  },
+  "analysis_vars": {
+    "data_flow": [
+      "跨境数据传输总量_TB",
+      "入境数据量_TB",
+      "出境数据量_TB",
+      "数据中心数量",
+      "互联网国际出口带宽_Gbps"
+    ],
+    "economic": [
+      "GDP_亿元",
+      "数字经济核心产业增加值_亿元",
+      "外贸进出口总额_亿元",
+      "实际利用外资FDI_亿美元"
+    ],
+    "innovation": [
+      "研发经费投入_亿元",
+      "发明专利授权量",
+      "高新技术企业数",
+      "技术合同成交额_亿元"
+    ],
+    "infrastructure": [
+      "5G基站数量",
+      "千兆光网覆盖率_%",
+      "算力规模_PFLOPS",
+      "物联网连接数_万个"
+    ]
+  }
+}

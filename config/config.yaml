@@ -1,0 +1,18 @@
+# 项目配置
+project:
+  name: "粤港澳大湾区数据要素流动分析"
+  version: "2.0.0"
+  author: "数据分析团队"
+
+# 数据配置
+data:
+  raw_path: "data/raw/"
+  processed_path: "data/processed/"
+  interim_path: "data/interim/"
+  
+  # 文件名称
+  files:
+    od_matrix: "od_matrix.csv"
+    main_data: "main_data_advanced.csv"
+    od_2019: "od_matrix_2019.csv"
+    od_
